@@ -1,0 +1,30 @@
+@supports (display: grid) {
+  body {
+    --min-width: 12.5rem;
+    --size: calc(100% / 3);
+
+    display: grid;
+    grid-template:
+      'header header' min-content
+      'main   aside' auto
+      'footer footer' min-content / calc(var(--size) * 2) minmax(var(--min-width), var(--size));
+    min-height: 100vh;
+    padding: 0 2rem;
+  }
+
+  header {
+    grid-area: header;
+  }
+
+  main {
+    grid-area: main;
+  }
+
+  aside {
+    grid-area: aside;
+  }
+
+  footer {
+    grid-area: footer;
+  }
+}
