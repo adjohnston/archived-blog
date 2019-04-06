@@ -1,2 +1,4 @@
-@import './styles/main.css';
-@import './styles/layout.css';
+@import url('https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css')
+screen;
+@import './styles/main.css' screen;
+@import './styles/layout.css' screen;

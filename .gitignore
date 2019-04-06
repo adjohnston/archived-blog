@@ -1,5 +1,5 @@
 # dependencies
 node_modules
 
-# build
-.next
+# build files
+posts/**/*.html
